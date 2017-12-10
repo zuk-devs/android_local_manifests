@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	# I just git clone the device specific repos so they aren't there currently
+
+	<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="lineage-15.0" />
+	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="lineage-15.0" />
+	<remove-project name="LineageOS/android_device_qcom_sepolicy" />
+	<project path="device/qcom/sepolicy" name="DD3Boh/android_device_qcom_sepolicy" remote="github" revision="staging/lineage-15.1" />
+
+</manifest>
