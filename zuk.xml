@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<project name="zuk-italian-devs/android_device_zuk_z2_plus" path="device/zuk/z2_plus" remote="github"  revision="8x-caf" />
+<project name="zuk-italian-devs/android_device_zuk_z2_row" path="device/zuk/z2_row" remote="github"  revision="8x-caf" />
+<project name="zuk-italian-devs/android_device_zuk_msm8996-common" path="device/zuk/msm8996-common" remote="github"  revision="8x-caf" />
+<project name="zuk-italian-devs/android_vendor_zuk" path="vendor/zuk" remote="github"  revision="lineage-15.1" />
+<project name="dd3boh/android_kernel_zuk_msm8996" path="kernel/zuk/msm8996" remote="github" revision="lineage-15.1" />
+
+<project name="AOSP-JF-MM/packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github"  revision="aosp-8.1" />
+
+<project name="davidevinavil/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" remote="github"  revision="staging/lineage-15.1-caf-8996" />
+<project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" remote="github"  revision="staging/lineage-15.1-caf-8996" />
+<project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" remote="github"  revision="staging/lineage-15.1-caf-8996" />
+
+<remove-project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" />
+<project name="davidevinavil/platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="github" revision="aosp-7.1.2" />
+
+<remove-project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" />
+<project name="AospExtended/platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="8.x" />
+</manifest>
