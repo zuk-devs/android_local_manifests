@@ -8,10 +8,6 @@
 
 <project name="AOSP-JF-MM/packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github"  revision="aosp-8.1" />
 
-<project name="davidevinavil/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" remote="github"  revision="staging/lineage-15.1-caf-8996" />
-<project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" remote="github"  revision="staging/lineage-15.1-caf-8996" />
-<project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" remote="github"  revision="staging/lineage-15.1-caf-8996" />
-
 <remove-project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" />
 <project name="davidevinavil/platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="github" revision="aosp-7.1.2" />
 
