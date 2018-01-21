@@ -1,4 +1,3 @@
 #!/bin/bash
 
-# sysinit
-repopick 199515
+echo 'Nothing to pick right now'
