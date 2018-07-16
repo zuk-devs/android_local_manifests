@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="zuk-devs/android_device_zuk_z2_plus" path="device/zuk/z2_plus" remote="github" revision="8x-caf-full-treble" />
+    <project name="zuk-devs/android_device_zuk_msm8996-common" path="device/zuk/msm8996-common" remote="github" revision="8x-caf-full-treble" />
+    <project name="zuk-devs/android_vendor_zuk" path="vendor/zuk" remote="github" revision="8x-caf-full-treble" />
+    <project name="DD3Boh/android_kernel_zuk_msm8996" path="kernel/zuk/msm8996" remote="github" revision="8x-caf-treble" />
+
+    <project name="teamfirangi/linaro-7.3" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-7.3" remote="github" revision="master" />
+
+    <remove-project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" />
+    <project name="AospExtended/platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="8.x" />
+</manifest>
