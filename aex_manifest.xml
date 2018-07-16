@@ -8,5 +8,5 @@
     <project name="teamfirangi/linaro-7.3" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-7.3" remote="github" revision="master" />
 
     <remove-project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" />
-    <project name="AospExtended/platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="8.x" />
+    <project name="AospExtended/platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="8.1.x" />
 </manifest>
