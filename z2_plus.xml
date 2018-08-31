@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<project path="device/zuk/msm8996-common" name="zuk-devs/android_device_zuk_msm8996-common" revision="lineage-16.0" />
+	<project path="device/zuk/z2_plus" name="zuk-devs/android_device_zuk_z2_plus" revision="lineage-16.0" />
+	<project path="vendor/zuk" name="zuk-devs/android_vendor_zuk" revision="lineage-16.0" />
+	<project path="kernel/zuk/msm8996" name="dd3boh/android_kernel_zuk_msm8996" revision="lineage-16.0" />
+
+	<remove-project name="LineageOS/android_hardware_qcom_audio" revision="lineage-16.0-caf-8996"/>
+	<remove-project name="LineageOS/android_hardware_qcom_display" revision="lineage-16.0-caf-8996"/>
+	<remove-project name="LineageOS/android_hardware_qcom_media" revision="lineage-16.0-caf-8996"/>
+
+	<project path="hardware/qcom/audio-caf/msm8996" name="davidevinavil/android_hardware_qcom_audio" revision="pp" />
+	<project path="hardware/qcom/display-caf/msm8996" name="davidevinavil/android_hardware_qcom_display" revision="pp" />
+	<project path="hardware/qcom/media-caf/msm8996" name="davidevinavil/android_hardware_qcom_media" revision="pp" />
+
+	<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="lineage-15.1" />
+
+	<project path="hardware/qcom/power" name="LineageOS/android_hardware_qcom_power" revision="lineage-16.0" />
+
+	<remove-project name="LineageOS/android_external_tinycompress" revision="lineage-16.0"/>
+	<project path="external/tinycompress" name="AospExtended/platform_external_tinycompress" revision="9.x" />
+
+</manifest>
