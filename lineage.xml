@@ -2,13 +2,8 @@
 <manifest>
   <remote name="zuk-devs" fetch="https://github.com/zuk-devs/" push="ssh://git@github.com/zuk-devs/" revision="lineage-16.0"/>
 
-  <remove-project name="LineageOS/android_hardware_qcom_audio" revision="lineage-16.0-caf-8996" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" remote="zuk-devs" revision="lineage-16.0-caf-8996"/>
-
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu" name="gcc-prebuilts" remote="zuk-devs" revision="master"/>
-
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github"/>
-  <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" revision="lineage-16.0-caf"/>
 
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />

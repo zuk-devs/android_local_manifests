@@ -1,3 +1,8 @@
 #!/bin/bash
 
-for i in pie-wlan-caf tinycompress-p; do repopick -t $i; done
+repopick -t tinycompress-p
+repopick -t pie-bt-caf
+repopick -t pie-qcom-sepolicy
+
+# audio: Use normal tinycompress
+repopick 227848
