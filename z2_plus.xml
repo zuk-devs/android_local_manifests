@@ -13,4 +13,6 @@
 
 	<project path="vendor/qcom/opensource/dataservices/" name="LineageOS/android_vendor_qcom_opensource_dataservices" revision="lineage-16.0" />
 
+	<project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" revision="lineage-16.0" />
+
 </manifest>
