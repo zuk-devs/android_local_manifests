@@ -3,16 +3,15 @@
 
 	<project path="device/zuk/msm8996-common" name="zuk-devs/android_device_zuk_msm8996-common" revision="lineage-16.0" />
 	<project path="device/zuk/z2_plus" name="zuk-devs/android_device_zuk_z2_plus" revision="lineage-16.0" />
-	<project path="vendor/zuk" name="zuk-devs/android_vendor_zuk" revision="lineage-16.0-no-ims" />
+	<project path="vendor/zuk" name="zuk-devs/android_vendor_zuk" revision="lineage-16.0" />
 	<project path="kernel/zuk/msm8996" name="dd3boh/android_kernel_zuk_msm8996" revision="lineage-16.0" />
 
-	<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="lineage-15.1" />
+	<project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" revision="lineage-16.0" />
 
-	<remove-project name="LineageOS/android_external_tinycompress" revision="lineage-16.0"/>
-	<project path="external/tinycompress" name="AospExtended/platform_external_tinycompress" revision="9.x" />
+	<project path="packages/apps/Snap" name="arco/android_packages_apps_Snap" revision="lineage-16.0" />
 
 	<project path="vendor/qcom/opensource/dataservices/" name="LineageOS/android_vendor_qcom_opensource_dataservices" revision="lineage-16.0" />
 
-	<project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" revision="lineage-16.0" />
+	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github"/>
 
 </manifest>
