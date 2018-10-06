@@ -5,6 +5,11 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu" name="gcc-prebuilts" remote="zuk-devs" revision="master"/>
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github"/>
 
+  <remove-project name="platform/packages/apps/SettingsIntelligence"/>
+  <project path="packages/apps/SettingsIntelligence" name="LineageOS/android_packages_apps_SettingsIntelligence" remote="github"/>
+
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />
+
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
   <remove-project name="platform/prebuilts/gdb/darwin-x86" />
