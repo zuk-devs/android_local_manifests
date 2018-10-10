@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />
+  <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
+</manifest>

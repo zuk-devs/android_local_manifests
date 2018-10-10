@@ -6,8 +6,6 @@
 	<project path="vendor/zuk" name="zuk-devs/android_vendor_zuk" revision="lineage-16.0" />
 	<project path="kernel/zuk/msm8996" name="dd3boh/android_kernel_zuk_msm8996" revision="lineage-16.0" />
 
-	<project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" revision="lineage-16.0" />
-
 	<project path="packages/apps/Snap" name="arco/android_packages_apps_Snap" revision="lineage-16.0" />
 
 	<project path="vendor/qcom/opensource/dataservices/" name="LineageOS/android_vendor_qcom_opensource_dataservices" revision="lineage-16.0" />
