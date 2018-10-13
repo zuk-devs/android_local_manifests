@@ -7,7 +7,6 @@ repopick -t pie-bt-caf
 repopick -t pie-buttons
 
 # Kernel headers
-repopick 231218
 repopick -t pie-kernel-headers
 
 # PowerHAL
