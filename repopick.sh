@@ -1,17 +1,10 @@
 #!/bin/bash
 
-# BT-CAF
-repopick -t pie-bt-caf
-
 # Buttons
 repopick -t pie-buttons
 
-# Kernel headers
-repopick 231218
-repopick -t pie-kernel-headers
-
-# PowerHAL
-repopick 229339
+# Recovery
+repopick -t pie-recovery-pathmap
 
 # Sepolicy
 repopick -t pie-qcom-sepolicy
